@@ -5,7 +5,8 @@
 
 ## 1. The goal of the project
 During a tutored project for our computer science GOAL, we have to realize a professional image editing software to edit, stack, scale and filter astrophotographic images (based on a .fits, .fit)
-The documentation is in french.
+
+The documentation and the software is in french.
 
 <img src="./img/1.JPG">
 
