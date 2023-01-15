@@ -7,7 +7,7 @@
 During a tutored project for our computer science GOAL, we have to realize a professional image editing software to edit, stack and filter astrophotographic images (based on a .fits, .fit)
 The documentation is in french.
 
-<img src="./images/1.JPG">
+<img src="./img/1.JPG">
 
 ## 2. Requirements
 ### 2.1 The programming language
@@ -41,7 +41,7 @@ Use the ``pip install Pyinstaller`` to download the latest version of the librar
 ## 4. The features
 ### 4.1 Stacking
 
-<img src="./images/2.JPG">
+<img src="./img/2.JPG">
 
 #### 4.1.1 Sum
 Assembling several images by adding the pixels of each image represented by a 2d array
@@ -53,7 +53,7 @@ Assembly of several images by determining the median of each pixel of the differ
 Assemble multiple images by adding each image with their outliers filter by the deviation and dispersion of the median for the different images of represented by a 2d table
 ### 4.2 Filters
 
-<img src="./images/4.JPG">
+<img src="./img/4.JPG">
 
 #### 4.2.1 Outliers
 ##### 4.2.1.1 Median
@@ -87,7 +87,7 @@ Allows to apply a bilateral filter on an image giving a blur/softness effect on 
 
 ### 4.3 Scaling
 
-<img src="./images/5.JPG">
+<img src="./img/5.JPG">
 
 ## 5. Credit
 - **Gauthier Corion** For the graphical interface via PyQt
