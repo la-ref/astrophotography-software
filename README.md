@@ -78,5 +78,5 @@ Allows to apply a convolution matrix of sobel in vertical and horizontal giving 
 Allows to apply a bilateral filter on an image giving a blur/softness effect on each pixel of an image represented via a 2d array via the value of the Gaussian distribution and the distance between the points in the chosen neighbor diameter allowing to have a more equitable distribution than a classic Gaussian filter
 
 ## 5. Credit
-> [Gauthier Corion] For the graphical interface via PyQt
-> [Matthieu CZARKOWSKI] For the algorithmic software features (stacking, filter, streching)
+- **Gauthier Corion** For the graphical interface via PyQt
+- **Matthieu CZARKOWSKI** For the algorithmic software features (stacking, filter, streching)
