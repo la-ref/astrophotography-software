@@ -1,4 +1,5 @@
 
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) [![Python](https://camo.githubusercontent.com/44da37f0f02bf104f0650fa5f2c754ed3f6166066c9210f31bacb9e63d60736e/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f70796261646765732e737667)](https://www.python.org/downloads/)
 # Astrophotography Stacking &amp; Edition Software
 
 
@@ -77,5 +78,5 @@ Allows to apply a convolution matrix of sobel in vertical and horizontal giving 
 Allows to apply a bilateral filter on an image giving a blur/softness effect on each pixel of an image represented via a 2d array via the value of the Gaussian distribution and the distance between the points in the chosen neighbor diameter allowing to have a more equitable distribution than a classic Gaussian filter
 
 ## 5. Credit
-- [Gauthier Corion] For the graphical interface via PyQt
-- [Matthieu CZARKOWSKI] For the algorithmic software features (stacking, filter, streching)
+> [Gauthier Corion] For the graphical interface via PyQt
+> [Matthieu CZARKOWSKI] For the algorithmic software features (stacking, filter, streching)
