@@ -7,6 +7,8 @@
 During a tutored project for our computer science GOAL, we have to realize a professional image editing software to edit, stack and filter astrophotographic images (based on a .fits, .fit)
 The documentation is in french.
 
+<img src="./images/1.JPG">
+
 ## 2. Requirements
 ### 2.1 The programming language
 We have chosen the programming language Python (**Version 3.10.4 recommended**), being simplified of use and rich in library, it is easier for us to develop thanks to this one. The disadvantage is that it is heavy to use, some functions can take several tens of minutes to execute.
@@ -38,6 +40,9 @@ Use the ``pip install Pyinstaller`` to download the latest version of the librar
 
 ## 4. The features
 ### 4.1 Stacking
+
+<img src="./images/2.JPG">
+
 #### 4.1.1 Sum
 Assembling several images by adding the pixels of each image represented by a 2d array
 #### 4.1.1 Average
@@ -47,6 +52,9 @@ Assembly of several images by determining the median of each pixel of the differ
 #### 4.1.1 Sigma
 Assemble multiple images by adding each image with their outliers filter by the deviation and dispersion of the median for the different images of represented by a 2d table
 ### 4.2 Filters
+
+<img src="./images/4.JPG">
+
 #### 4.2.1 Outliers
 ##### 4.2.1.1 Median
 Removes the outliers from each image in a list with multiple images and replaces the outliers with the median based on the range/dispersion around the median of Q1 and Q3 with the interquartile range
@@ -77,6 +85,10 @@ Allows to apply a convolution matrix of sobel in vertical and horizontal giving 
 #### 4.2.8 Bilateral
 Allows to apply a bilateral filter on an image giving a blur/softness effect on each pixel of an image represented via a 2d array via the value of the Gaussian distribution and the distance between the points in the chosen neighbor diameter allowing to have a more equitable distribution than a classic Gaussian filter
 
+### 4.3 Scaling
+
+<img src="./images/5.JPG">
+
 ## 5. Credit
 - **Gauthier Corion** For the graphical interface via PyQt
-- **Matthieu CZARKOWSKI** For the algorithmic software features (stacking, filter, streching)
+- **Matthieu CZARKOWSKI** For the algorithmic software features (stacking, filter, scaling)
